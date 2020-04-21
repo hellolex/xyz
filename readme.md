@@ -2,13 +2,13 @@
 开发语言Python3，使用框架django 2.2
 
 # 系统介绍
-前后端分离部署
-使用waitree服务器，已配置在django系统里，直接启动即可
-多用户，每个注册用户有属于自己的主页，游客可访问
-采用JWT结合数据库进行访问验证，验证方式为令牌验证，访问令牌默认7天过期
-支持服务器图片上传或七牛图片上传
-文章管理
-评论管理
+前后端分离部署  
+使用waitree服务器，已配置在django系统里，直接启动即可  
+多用户，每个注册用户有属于自己的主页，游客可访问  
+采用JWT结合数据库进行访问验证，验证方式为令牌验证，访问令牌默认7天过期  
+支持服务器图片上传或七牛图片上传  
+文章管理  
+评论管理  
 
 # 示例
 前端效果仅参考
@@ -35,9 +35,9 @@ pip install -r requirements.txt
 这样项目就安装好了
 
 # 配置项目
-1、在xyz文件夹中打开 settings.py 文件配置 mysql 服务器
-2、在xyz -> apps -> blog文件夹中打开文件 views.py 配置上传的本地文件夹
-3、最后打开 server.py 文件，填写激活虚拟文件绝对路径，该文件在env/Scripts文件夹下
+1、在xyz文件夹中打开 settings.py 文件配置 mysql 服务器  
+2、在xyz -> apps -> blog文件夹中打开文件 views.py 配置上传的本地文件夹  
+3、最后打开 server.py 文件，填写激活虚拟文件绝对路径，该文件在env/Scripts文件夹下  
 ```
 activate_this= os.path.join("E:/XYZ/server/env/Scripts/activate_this.py")
 ```
